@@ -1,2 +1,2 @@
-# virtual-stopwatch
-A stopwatch made with REACT
+# A virtual stopwatch
+### REACT
