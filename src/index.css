@@ -49,6 +49,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 10px;
+  row-gap: 10px;
 }
 
 .stopwatch-actions button {
@@ -61,9 +62,19 @@ body {
   cursor: pointer;
 }
 
-.stopwatch-actions button:active {
+.stopwatch-actions button:active:not(.stopwatch-actions button:disabled) {
   background-color: rgb(150, 147, 147);
   box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
   transform: translateY(-4px);
+}
+
+.stopwatch-actions button:disabled {
+  opacity: .5;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+.stopwatch-actions button:hover:not(.stopwatch-actions button:disabled) {
+  background-color: rgb(68, 80, 82);
 }
 
