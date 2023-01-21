@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/virtual-stopwatch/static/css/main.bce29990.css",
+    "main.js": "/virtual-stopwatch/static/js/main.c46698ff.js",
+    "index.html": "/virtual-stopwatch/index.html",
+    "main.bce29990.css.map": "/virtual-stopwatch/static/css/main.bce29990.css.map",
+    "main.c46698ff.js.map": "/virtual-stopwatch/static/js/main.c46698ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bce29990.css",
+    "static/js/main.c46698ff.js"
+  ]
+}
